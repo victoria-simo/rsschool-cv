@@ -10,6 +10,6 @@
 
 **Experience:** No
 
-**Education:** Vet
+**Education:** Kyrgyz National Agrarian University *2020*
 
 **English:** A1
