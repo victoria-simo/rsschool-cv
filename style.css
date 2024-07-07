@@ -13,6 +13,9 @@ body {
     line-height: 1.5;
     color: #4d2323;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -50,6 +53,7 @@ body {
 .main-block{
     display: flex;
     gap: 24px;
+    margin-bottom: 80px;
 }
 .main-column{
     flex-grow: 1;
@@ -112,7 +116,7 @@ footer {
     color: white;
     padding-bottom: 15px;
     padding-top: 25px;
-    margin-top: 80px;
+    margin-top: auto;
 }
 
 footer .container{
@@ -127,4 +131,11 @@ footer a{
 
 .rs-logo img{
     height: 40px;
+}
+
+code{
+    margin: 8px 0;
+    display: inline-block;
+    padding: 10px;
+    background: #ebebeb;
 }
