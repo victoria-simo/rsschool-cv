@@ -12,11 +12,13 @@ body {
     color: #4d2323;
     margin: 0;
 }
-.header{
+
+.header {
     background: #54c1a4;
     padding: 10px 25px;
     margin-bottom: 60px;
 }
+
 .navigation-list {
     display: flex;
     padding: 0;
@@ -30,10 +32,30 @@ body {
     text-decoration: none;
     margin-left: 20px;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-.section{
-    width: 50%;
+
+.section {
+
+}
+
+.main-block-picture {
+    width: 400px;
+}
+
+.social-container {
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #54c1a4;
+}
+
+.social-container img {
+    width: 32px;
+    display: inline-block;
+    margin-right: 8px;
 }
